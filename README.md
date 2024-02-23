@@ -18,7 +18,7 @@ As an example here are a few websites used by this group.
 - https://www.philipjcarter.com/
 - https://www.sotiriafotopoulou.com/
 - https://stellarplanet.org/
-- https://www.cosroe.com/ 
+- https://www.cosroe.com/
 
 ## Do you need to learn HTML, Javascript and CSS?
 
@@ -29,7 +29,7 @@ Absolutely not there are some great repositories that can act as a template for 
 
 ### The "Hard" route
 
-simply create a repository call your username.github.io 
+simply create a repository call your username.github.io
 and publish it with a empty index.html file.
 
 ## The "Simple" route
@@ -39,14 +39,48 @@ Simply find your faviorite template fork the repo and change the name to usernam
 - https://github.com/academicpages/academicpages.github.io
 - https://github.com/imfunniee/gitfolio
 - https://liveterm.vercel.app/
-- https://liveterm.vercel.app/ 
 
 ## Web Developement Tips.
 
-- USE browser tools! 
+- USE browser tools!
 - [w3schools](https://www.w3schools.com/) [Test CSS/JS/HTML live]
 - https://www.w3schools.com/js/js_htmldom.asp [DOM tutorials]
 
+
+## How does Github Create a website?
+
+Github runs a workflow that takes the files in your repository and creates a website from them. This is done using a tool called Jekyll. Jekyll is a static site generator that's perfect for GitHub Pages sites.
+
+
+
+
+
 ## TASK
 
-Before we explore te mplates lets get an idea around how creating a website works.
+
+Now lets try to create a website using one of the two methods.
+If you are using the "Simple" route you can use the following template instructions. And move on to customising the template. With the Markdown files.
+
+If you are using the "Hard" Just start with a blank index.html file. Your repoo will be at username.github.io.
+
+Use this basic code.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+```
+
+
+
+## Whats next?
+
+- custom URLs? (You must own the domain)
+- Customising the template.
